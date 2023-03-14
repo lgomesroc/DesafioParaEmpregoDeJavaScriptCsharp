@@ -62,8 +62,8 @@ Utilize Javascript
 10 Crie uma função que receba um array de números e converta para todos para números inteiros arredondado para baixo e imprima no console.
 11 – Utilizando o seguinte objeto 
 
-const user = { 
-  
+#const user = { 
+#  
   name: "Roberto", 
   
   idade: "33", 
