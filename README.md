@@ -27,20 +27,31 @@ Com base nas informações acima, faça:
 - Crie uma rota para deletar um usuário, essa rota deve deletar também todas as tarefas associadas a esse usuário. 
 
 Banco 
+
    - Anexar em uma pasta no projeto os scripts das criações das tabelas
+   - 
    - Criar uma trigger que será disparada ao cadastrar um novo usuário no banco, deverá enviar um e-mail para "contato@sistemas.com.br".
 
    - Criar uma procedure que envie um e-mail informando a quantidade de usuários cadastrados nos últimos 92 dias;
+   - 
    - Criar um diagrama de banco de dados
+   - 
    - Criar uma procedure que envie um e-mail ao aniversariante do dia.
 
 Utilize Javascript
+
 1 Crie uma função que receba um objeto JSON e imprima no console o nome de todas as propriedades do objeto
+
 2 Crie uma função que receba um array de objetos JSON e verifique caso o objeto possua a propriedade cidade e o valor seja Belo Horizonte acrescente a propriedade estado com valor MG e retorne o array
+
 3 Crie uma função que receba um array de objetos JSON e verifique caso o objeto possua a propriedade cidade e o valor seja São Paulo imprima o objeto no console, remova o objeto e retorne o array
+
 4 Crie uma variável que possa ser usada somente no escopo em que foi criada e uma que possa ser usada fora do escopo que foi criada 
+
 5 Crie uma que receba um array de objetos e retorne ordenado e ordem alfabética a partir da propriedade name do objeto
+
 6 crie uma função que receba um array e retorne um novo array somente com números pares contidos nele
+
 
 7 crie uma função que receba um array e retorne um novo array somente com números primos contidos nele
   
@@ -52,18 +63,29 @@ Utilize Javascript
 11 – Utilizando o seguinte objeto 
 
 const user = { 
-  name: "Roberto", 
-  idade: "33", 
-  formado: "Sim", 
-  escolaridade: { 
-    instituicao1: "UNIVERSIDADE MG, UNIVERSIDADE SP, UNIVERSIDADE PR, UNIVERSADE RS", 
-    instituicao2: "Preencher essa informação", 
-  }, 
+  
+  name: "Roberto", 
+  
+  idade: "33", 
+  
+  formado: "Sim", 
+  
+  escolaridade: { 
+    
+    instituicao1: "UNIVERSIDADE MG, UNIVERSIDADE SP, UNIVERSIDADE PR, UNIVERSADE RS", 
+    
+    instituicao2: "Preencher essa informação", 
+  
+  }, 
+
 } 
+
 
 11.1 Crie uma função que receba o objeto e altere propriedade instituição 1 para um array de strings utilizando o separador virgula utilizando o valor da propriedade e adicione 2 Adicione 3 novas propriedade no objeto user endereço, nacionalidade e situação do curso.  
 
+
 Utilizando jquery  -   Utilizando o exemplo de html abaixo:
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -98,9 +120,13 @@ Utilizando jquery  -   Utilizando o exemplo de html abaixo:
     </body>
 </html>
 
-1 – Crie uma função que ao clicar no botão enviar imprima no console os valores dos seguintes inputs: Nome, E-mail e enviar	
-2 – Crie uma função que verifique o checkbox:  alertar caso esteja checado e imprima no console “o usuário deve ser alertado”, caso não, deve imprimir “o usuário não deseja ser alertado”
-3 – Crie uma função que que ao clicar no botão enviar valide os inputs caso eles estejam vazios a cor borda do input deve ficar vermelha 
-4 – Codifique um script que caso o campo salário não seja preenchido o botão enviar deve ser desabilitado
-5 – Crie uma função que crie uma máscara monetária(R$) para salário.  
 
+1 – Crie uma função que ao clicar no botão enviar imprima no console os valores dos seguintes inputs: Nome, E-mail e enviar	
+
+2 – Crie uma função que verifique o checkbox:  alertar caso esteja checado e imprima no console “o usuário deve ser alertado”, caso não, deve imprimir “o usuário não deseja ser alertado”
+
+3 – Crie uma função que que ao clicar no botão enviar valide os inputs caso eles estejam vazios a cor borda do input deve ficar vermelha 
+
+4 – Codifique um script que caso o campo salário não seja preenchido o botão enviar deve ser desabilitado
+
+5 – Crie uma função que crie uma máscara monetária(R$) para salário.  
